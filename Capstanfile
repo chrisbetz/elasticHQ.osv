@@ -1,0 +1,6 @@
+base: cloudius/osv-openjdk8
+
+cmdline: /java.so -jar /static-http-kit.jar
+
+files:
+  /static-http-kit.jar: /Users/cbetz/Projects/static-http-kit/target/static-http-kit-standalone.jar
